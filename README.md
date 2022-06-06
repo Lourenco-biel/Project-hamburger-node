@@ -2,7 +2,7 @@
 
 <h2>Sistema de gerenciamento de uma hamburgueria<h2>
   
-<img src="./assets/Hamburguer.gif">
+<img src="./Assets/Hamburguer.gif">
 
 
 > Projeto finalizado 
@@ -67,7 +67,7 @@ O Middleware: CheckMethod é chamado em todas requisições que tenha um console
   <tr>
     <td align="center">
       <a href="#">
-        <img src="./components/../src/img/Eu.png" width="100px;" alt="Foto do Gabriel Silva no GitHub"/><br>
+        <img src="./Assets/Eu.png" width="100px;" alt="Foto do Gabriel Silva no GitHub"/><br>
         <sub>
           <a >Gabriel Ibiapino</a>
         </sub>
