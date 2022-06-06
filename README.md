@@ -2,7 +2,7 @@
 
 <h2>Sistema de gerenciamento de uma hamburgueria<h2>
   
-<img src="./Assets/Hamburguer.gif">
+<video src="./Assets/Hamburguer.gif">
 
 
 > Projeto finalizado 
@@ -10,7 +10,7 @@
 
 ## 💻 Sobre o Projeto
 
-Esta é uma aplicação que fará o cadastro e gerenciamento dos pedidos de uma hamburgueria, utilindo Node, Express, Uuid e Cors.
+Esta é uma aplicação que fará o cadastro e gerenciamento dos pedidos de uma hamburgueria, utilindo 🔧 Node, Express, Uuid e Cors.
 
 Criei as seguintes Rotas
 POST /order: A rota receber o pedido do cliente, o nome do cliente e o valor do pedido, em seguinda gera o ID e Status seguindo o seguinte formato: { id: "ac3ebf68-e0ad-4c1d-9822-ff1b849589a8", order: "X- Salada, 2 batatas grandes, 1 coca-cola", clientName:"José", price: 44.50, status:"Em preparação" }.
@@ -25,7 +25,9 @@ GET /order/:id: Essa rota utiliza o id do pedido para retornar apenas um pedido 
 
 PATCH /order/:id: Essa rota utiliza o id do pedido para alterar o status do pedido recebido para "Pronto".
 
-Exemplo
+
+Exemplo📃: 
+
 Se eu chamar a rota POST /order repassando { order: "X- Salada, 2 batatas grandes, 1 coca-cola", clienteName:"José", price: 44.50 }, o array ficara assim:
 
 [
@@ -49,7 +51,7 @@ Se eu chamar a rota PATCH /order/ac3ebf68-e0ad-4c1d-9822-ff1b849589a8, o array f
   }
 ];
 
-Middlewares
+Middlewares✅:
 
 O Middleware: checkUserId é  utilizado em todas rotas que recebem o parâmetro ID, ele verifica se o ID passado existe, se não existi retorne um erro, caso contrário permite que a requisição continue normalmente;
 
