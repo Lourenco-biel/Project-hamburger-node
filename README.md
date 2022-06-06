@@ -2,7 +2,7 @@
 
 <h2>Sistema de gerenciamento de uma hamburgueria<h2>
   
-<video src="./Assets/Hamburguer.gif">
+<img src="./Assets/Hamburguer.gif">
 
 
 > Projeto finalizado 
