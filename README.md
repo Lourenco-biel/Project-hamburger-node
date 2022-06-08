@@ -13,6 +13,7 @@
 Esta é uma aplicação que faz o cadastro e gerenciamento dos pedidos de uma hamburgueria, utilizando 🔧: Node, Express, Uuid e Cors.
 
 Criei as seguintes Rotas
+  
 POST /order: A rota receber o pedido do cliente, o nome do cliente e o valor do pedido, em seguinda gera o ID e Status seguindo o seguinte formato: { id: "ac3ebf68-e0ad-4c1d-9822-ff1b849589a8", order: "X- Salada, 2 batatas grandes, 1 coca-cola", clientName:"José", price: 44.50, status:"Em preparação" }.
 
 GET /order: Rota que lista todos os pedidos já feitos.
